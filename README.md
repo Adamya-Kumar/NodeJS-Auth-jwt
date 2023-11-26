@@ -14,7 +14,7 @@ Home after user successfully login..
 
 
 ## Used Dependencies:
- {
+ 
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.3",
@@ -24,7 +24,7 @@ Home after user successfully login..
     "mongoose": "^5.13.21",
     "nodemon": "^3.0.1",
     "validator": "^13.11.0"
-  }
+  
 
 ## Install dependencies:
 
@@ -42,7 +42,7 @@ Token Expiry: The JWT has a specified expiration time to enhance security. Users
 
 # Endpoints:
 
-POST /signup: Create a new user account.\n
+POST /signup: Create a new user account. <br/>
 POST /login: Authenticate and receive a JWT.
 
 ## Database:
