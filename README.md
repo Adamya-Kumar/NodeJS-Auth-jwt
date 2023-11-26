@@ -1,4 +1,4 @@
-### NodeJS-Auth-JWT
+# NodeJS-Auth-JWT
 
 ## Description:
 
@@ -28,7 +28,7 @@ Home after user successfully login..
 
 ## Install dependencies:
 
-# npm install
+ npm install
 
 ## Authentication:
 
@@ -40,9 +40,9 @@ Login: Users can log in with their username and password. Upon successful authen
 
 Token Expiry: The JWT has a specified expiration time to enhance security. Users need to refresh their tokens to stay authenticated.
 
-#Endpoints:
+# Endpoints:
 
-POST /signup: Create a new user account.
+POST /signup: Create a new user account.\n
 POST /login: Authenticate and receive a JWT.
 
 ## Database:
